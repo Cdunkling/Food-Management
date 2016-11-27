@@ -1,0 +1,17 @@
+C:\Users\Chris\Desktop\COMP4 project\foodmanagment v4\02032016\Food Management system\bin\Release\Food Management system.exe.config
+C:\Users\Chris\Desktop\COMP4 project\foodmanagment v4\02032016\Food Management system\bin\Release\Form1.resx
+C:\Users\Chris\Desktop\COMP4 project\foodmanagment v4\02032016\Food Management system\bin\Release\Form1.cs
+C:\Users\Chris\Desktop\COMP4 project\foodmanagment v4\02032016\Food Management system\bin\Release\Form1.Designer.cs
+C:\Users\Chris\Desktop\COMP4 project\foodmanagment v4\02032016\Food Management system\bin\Release\Food Management system.exe
+C:\Users\Chris\Desktop\COMP4 project\foodmanagment v4\02032016\Food Management system\bin\Release\Food Management system.pdb
+C:\Users\Chris\Desktop\COMP4 project\foodmanagment v4\02032016\Food Management system\obj\Release\FoodManagmentsystem.calender.resources
+C:\Users\Chris\Desktop\COMP4 project\foodmanagment v4\02032016\Food Management system\obj\Release\FoodManagementsystem.details.resources
+C:\Users\Chris\Desktop\COMP4 project\foodmanagment v4\02032016\Food Management system\obj\Release\FoodManagmentsystem.Editinfo.resources
+C:\Users\Chris\Desktop\COMP4 project\foodmanagment v4\02032016\Food Management system\obj\Release\FoodManagmentsystem.MainWindow.resources
+C:\Users\Chris\Desktop\COMP4 project\foodmanagment v4\02032016\Food Management system\obj\Release\FoodManagementsystem.stockdatabase.resources
+C:\Users\Chris\Desktop\COMP4 project\foodmanagment v4\02032016\Food Management system\obj\Release\FoodManagementsystem.productdatabase.resources
+C:\Users\Chris\Desktop\COMP4 project\foodmanagment v4\02032016\Food Management system\obj\Release\FoodManagementsystem.Properties.Resources.resources
+C:\Users\Chris\Desktop\COMP4 project\foodmanagment v4\02032016\Food Management system\obj\Release\Food Management system.csproj.GenerateResource.Cache
+C:\Users\Chris\Desktop\COMP4 project\foodmanagment v4\02032016\Food Management system\obj\Release\Food Management system.exe
+C:\Users\Chris\Desktop\COMP4 project\foodmanagment v4\02032016\Food Management system\obj\Release\Food Management system.pdb
+C:\Users\Chris\Desktop\COMP4 project\foodmanagment v4\02032016\Food Management system\obj\Release\Food Management system.csprojResolveAssemblyReference.cache

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FoodManagmentsystem.calender" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABICAAAAAAAACAIAACAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>calender.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodManagmentsystem.AutoClosingMessageBox" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAgIAAAAAACAAAAAAAABEAAABAAAAAAAAAAA=</HashCode>
+      <FileName>closing boxes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodManagmentsystem.Editinfo" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAAAAAAACIAABAQAByAAACCAAA8AgAAAGAAAAEAAAA=</HashCode>
+      <FileName>editinfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodManagmentsystem.MainWindow" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIKAAAFAEGCFUBBEAADAOBYTCFitERpqFPIMySmDjAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodManagmentsystem.product" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEABAQAEAGEAAAgBgAEAAAQCQAAAAAAggAEAQAAABQA=</HashCode>
+      <FileName>product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodManagmentsystem.Program" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodManagementsystem.details" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAASAAAAAAAACABAACAAgQAAAAACAAAAAAAAA=</HashCode>
+      <FileName>details.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodManagementsystem.fulldatabase" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAACAACAAAAADAAAACAAgAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>fulldatabase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodManagementsystem.productdatabase" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAABAACAAAAAAAADAAAACAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>productdatabase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodManagementsystem.Properties.Resources" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FoodManagementsystem.Properties.Settings" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

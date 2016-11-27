@@ -1,0 +1,244 @@
+C:\Users\Chris Home\Documents\Visual Studio 2013\Projects\Food Management system\Food Management system\bin\Debug\Food Management system.exe.config
+C:\Users\Chris Home\Documents\Visual Studio 2013\Projects\Food Management system\Food Management system\obj\Debug\Food_Management_system.Properties.Resources.resources
+C:\Users\Chris Home\Documents\Visual Studio 2013\Projects\Food Management system\Food Management system\obj\Debug\Food Management system.csproj.GenerateResource.Cache
+C:\Users\Chris Home\Documents\Visual Studio 2013\Projects\Food Management system\Food Management system\bin\Debug\Food Management system.exe
+C:\Users\Chris Home\Documents\Visual Studio 2013\Projects\Food Management system\Food Management system\bin\Debug\Food Management system.pdb
+C:\Users\Chris Home\Documents\Visual Studio 2013\Projects\Food Management system\Food Management system\obj\Debug\Food Management system.csprojResolveAssemblyReference.cache
+C:\Users\Chris Home\Documents\Visual Studio 2013\Projects\Food Management system\Food Management system\obj\Debug\FoodManagmentsystem.calender.resources
+C:\Users\Chris Home\Documents\Visual Studio 2013\Projects\Food Management system\Food Management system\obj\Debug\FoodManagmentsystem.Deleteinfo.resources
+C:\Users\Chris Home\Documents\Visual Studio 2013\Projects\Food Management system\Food Management system\obj\Debug\FoodManagmentsystem.Editinfo.resources
+C:\Users\Chris Home\Documents\Visual Studio 2013\Projects\Food Management system\Food Management system\obj\Debug\FoodManagmentsystem.Form1.resources
+C:\Users\Chris Home\Documents\Visual Studio 2013\Projects\Food Management system\Food Management system\obj\Debug\Food Management system.exe
+C:\Users\Chris Home\Documents\Visual Studio 2013\Projects\Food Management system\Food Management system\obj\Debug\Food Management system.pdb
+C:\Users\Chris Home\Documents\Visual Studio 2013\Projects\Food Management system v0.7\Food Management system\bin\Debug\Food Management system.exe.config
+C:\Users\Chris Home\Documents\Visual Studio 2013\Projects\Food Management system v0.7\Food Management system\obj\Debug\Food Management system.exe
+C:\Users\Chris Home\Documents\Visual Studio 2013\Projects\Food Management system v0.7\Food Management system\obj\Debug\Food Management system.pdb
+C:\Users\Chris Home\Documents\Visual Studio 2013\Projects\Food Management system 160114\Food Management system\bin\Debug\Food Management system.exe.config
+C:\Users\Chris Home\Documents\Visual Studio 2013\Projects\Food Management system 160114\Food Management system\obj\Debug\Food Management system.exe
+C:\Users\Chris Home\Documents\Visual Studio 2013\Projects\Food Management system 160114\Food Management system\obj\Debug\Food Management system.pdb
+E:\Food Management system 160114\Food Management system\bin\Debug\Food Management system.exe.config
+E:\Food Management system 160114\Food Management system\obj\Debug\Food Management system.exe
+E:\Food Management system 160114\Food Management system\obj\Debug\Food Management system.pdb
+E:\Food Management system 160114\Food Management system\bin\Debug\Food Management system.exe
+E:\Food Management system 160114\Food Management system\bin\Debug\Food Management system.pdb
+E:\Food Management system 160114\Food Management system\obj\Debug\Food Management system.csprojResolveAssemblyReference.cache
+E:\Food Management system 160114\Food Management system\obj\Debug\FoodManagmentsystem.calender.resources
+E:\Food Management system 160114\Food Management system\obj\Debug\FoodManagmentsystem.Deleteinfo.resources
+E:\Food Management system 160114\Food Management system\obj\Debug\FoodManagmentsystem.Editinfo.resources
+E:\Food Management system 160114\Food Management system\obj\Debug\FoodManagmentsystem.Form1.resources
+E:\Food Management system 160114\Food Management system\obj\Debug\Food_Management_system.Properties.Resources.resources
+E:\Food Management system 160114\Food Management system\obj\Debug\Food Management system.csproj.GenerateResource.Cache
+F:\Food Management system 160115\Food Management system\bin\Debug\Food Management system.exe.config
+F:\Food Management system 160115\Food Management system\obj\Debug\Food Management system.exe
+F:\Food Management system 160115\Food Management system\obj\Debug\Food Management system.pdb
+F:\Food Management system 160115\Food Management system\bin\Debug\Food Management system.exe
+F:\Food Management system 160115\Food Management system\bin\Debug\Food Management system.pdb
+F:\Food Management system 160115\Food Management system\obj\Debug\Food Management system.csprojResolveAssemblyReference.cache
+F:\Food Management system 160115\Food Management system\obj\Debug\FoodManagmentsystem.calender.resources
+F:\Food Management system 160115\Food Management system\obj\Debug\FoodManagmentsystem.Deleteinfo.resources
+F:\Food Management system 160115\Food Management system\obj\Debug\FoodManagmentsystem.Editinfo.resources
+F:\Food Management system 160115\Food Management system\obj\Debug\FoodManagmentsystem.Form1.resources
+F:\Food Management system 160115\Food Management system\obj\Debug\Food_Management_system.Properties.Resources.resources
+F:\Food Management system 160115\Food Management system\obj\Debug\Food Management system.csproj.GenerateResource.Cache
+F:\Food Management system 160118\Food Management system\bin\Debug\Food Management system.exe.config
+F:\Food Management system 160118\Food Management system\obj\Debug\Food Management system.exe
+F:\Food Management system 160118\Food Management system\obj\Debug\Food Management system.pdb
+F:\Food Management system 160118\Food Management system\bin\Debug\Food Management system.exe
+F:\Food Management system 160118\Food Management system\bin\Debug\Food Management system.pdb
+F:\Food Management system 160118\Food Management system\obj\Debug\Food Management system.csprojResolveAssemblyReference.cache
+F:\Food Management system 160118\Food Management system\obj\Debug\FoodManagmentsystem.calender.resources
+F:\Food Management system 160118\Food Management system\obj\Debug\FoodManagmentsystem.Deleteinfo.resources
+F:\Food Management system 160118\Food Management system\obj\Debug\FoodManagmentsystem.Editinfo.resources
+F:\Food Management system 160118\Food Management system\obj\Debug\FoodManagmentsystem.Form1.resources
+F:\Food Management system 160118\Food Management system\obj\Debug\Food_Management_system.Properties.Resources.resources
+F:\Food Management system 160118\Food Management system\obj\Debug\Food Management system.csproj.GenerateResource.Cache
+F:\Food Management system new prototype featires\Food Management system\bin\Debug\Food Management system.exe.config
+F:\Food Management system new prototype featires\Food Management system\obj\Debug\Food Management system.exe
+F:\Food Management system new prototype featires\Food Management system\obj\Debug\Food Management system.pdb
+F:\Food Management system new prototype featires\Food Management system\obj\Debug\Food Management system.csprojResolveAssemblyReference.cache
+F:\Food Management system new prototype featires\Food Management system\obj\Debug\FoodManagmentsystem.calender.resources
+F:\Food Management system new prototype featires\Food Management system\obj\Debug\FoodManagmentsystem.Deleteinfo.resources
+F:\Food Management system new prototype featires\Food Management system\obj\Debug\FoodManagmentsystem.Editinfo.resources
+F:\Food Management system new prototype featires\Food Management system\obj\Debug\FoodManagmentsystem.Form1.resources
+F:\Food Management system new prototype featires\Food Management system\obj\Debug\FoodManagementsystem.Properties.Resources.resources
+F:\Food Management system new prototype featires\Food Management system\obj\Debug\Food Management system.csproj.GenerateResource.Cache
+F:\Food Management system new prototype featires\Food Management system\bin\Debug\Food Management system.exe
+F:\Food Management system new prototype featires\Food Management system\bin\Debug\Food Management system.pdb
+E:\Food Management system new prototype featires\Food Management system\bin\Debug\Food Management system.exe.config
+E:\Food Management system new prototype featires\Food Management system\obj\Debug\Food Management system.exe
+E:\Food Management system new prototype featires\Food Management system\obj\Debug\Food Management system.pdb
+E:\Food Management system new prototype featires\Food Management system\bin\Debug\Food Management system.exe
+E:\Food Management system new prototype featires\Food Management system\bin\Debug\Food Management system.pdb
+E:\Food Management system new prototype featires\Food Management system\obj\Debug\Food Management system.csprojResolveAssemblyReference.cache
+E:\Food Management system new prototype featires\Food Management system\obj\Debug\FoodManagmentsystem.calender.resources
+E:\Food Management system new prototype featires\Food Management system\obj\Debug\FoodManagmentsystem.Deleteinfo.resources
+E:\Food Management system new prototype featires\Food Management system\obj\Debug\FoodManagmentsystem.Editinfo.resources
+E:\Food Management system new prototype featires\Food Management system\obj\Debug\FoodManagmentsystem.Form1.resources
+E:\Food Management system new prototype featires\Food Management system\obj\Debug\FoodManagementsystem.fulldatabase.resources
+E:\Food Management system new prototype featires\Food Management system\obj\Debug\FoodManagementsystem.productdatabase.resources
+E:\Food Management system new prototype featires\Food Management system\obj\Debug\FoodManagementsystem.Properties.Resources.resources
+E:\Food Management system new prototype featires\Food Management system\obj\Debug\Food Management system.csproj.GenerateResource.Cache
+F:\Food Management system new prototype featires\Food Management system\obj\Debug\FoodManagementsystem.fulldatabase.resources
+F:\Food Management system new prototype featires\Food Management system\obj\Debug\FoodManagementsystem.productdatabase.resources
+C:\Users\Chris Home\Documents\comp project\3012016\Food Management system\bin\Debug\Food Management system.exe.config
+C:\Users\Chris Home\Documents\comp project\3012016\Food Management system\obj\Debug\Food Management system.exe
+C:\Users\Chris Home\Documents\comp project\3012016\Food Management system\obj\Debug\Food Management system.pdb
+C:\Users\Chris Home\Documents\comp project\3012016\Food Management system\bin\Debug\Food Management system.exe
+C:\Users\Chris Home\Documents\comp project\3012016\Food Management system\bin\Debug\Food Management system.pdb
+C:\Users\Chris Home\Documents\comp project\3012016\Food Management system\obj\Debug\Food Management system.csprojResolveAssemblyReference.cache
+C:\Users\Chris Home\Documents\comp project\3012016\Food Management system\obj\Debug\FoodManagmentsystem.calender.resources
+C:\Users\Chris Home\Documents\comp project\3012016\Food Management system\obj\Debug\FoodManagmentsystem.Deleteinfo.resources
+C:\Users\Chris Home\Documents\comp project\3012016\Food Management system\obj\Debug\FoodManagmentsystem.Editinfo.resources
+C:\Users\Chris Home\Documents\comp project\3012016\Food Management system\obj\Debug\FoodManagmentsystem.Form1.resources
+C:\Users\Chris Home\Documents\comp project\3012016\Food Management system\obj\Debug\FoodManagementsystem.fulldatabase.resources
+C:\Users\Chris Home\Documents\comp project\3012016\Food Management system\obj\Debug\FoodManagementsystem.productdatabase.resources
+C:\Users\Chris Home\Documents\comp project\3012016\Food Management system\obj\Debug\FoodManagementsystem.Properties.Resources.resources
+C:\Users\Chris Home\Documents\comp project\3012016\Food Management system\obj\Debug\Food Management system.csproj.GenerateResource.Cache
+F:\foodmanagment\3012016\Food Management system\bin\Debug\Food Management system.exe.config
+F:\foodmanagment\3012016\Food Management system\obj\Debug\Food Management system.exe
+F:\foodmanagment\3012016\Food Management system\obj\Debug\Food Management system.pdb
+F:\foodmanagment\3012016\Food Management system\bin\Debug\Food Management system.exe
+F:\foodmanagment\3012016\Food Management system\bin\Debug\Food Management system.pdb
+F:\foodmanagment\3012016\Food Management system\obj\Debug\Food Management system.csprojResolveAssemblyReference.cache
+F:\foodmanagment\3012016\Food Management system\obj\Debug\FoodManagmentsystem.calender.resources
+F:\foodmanagment\3012016\Food Management system\obj\Debug\FoodManagmentsystem.Deleteinfo.resources
+F:\foodmanagment\3012016\Food Management system\obj\Debug\FoodManagmentsystem.Editinfo.resources
+F:\foodmanagment\3012016\Food Management system\obj\Debug\FoodManagmentsystem.Form1.resources
+F:\foodmanagment\3012016\Food Management system\obj\Debug\FoodManagementsystem.fulldatabase.resources
+F:\foodmanagment\3012016\Food Management system\obj\Debug\FoodManagementsystem.productdatabase.resources
+F:\foodmanagment\3012016\Food Management system\obj\Debug\FoodManagementsystem.Properties.Resources.resources
+F:\foodmanagment\3012016\Food Management system\obj\Debug\Food Management system.csproj.GenerateResource.Cache
+F:\foodmanagment\3012016\Food Management system\obj\Debug\FoodManagementsystem.FavouritesList.resources
+F:\foodmanagment\3012016\Food Management system\obj\Debug\FoodManagementsystem.viewer.resources
+E:\foodmanagment\6022016\Food Management system\bin\Debug\Food Management system.exe.config
+E:\foodmanagment\6022016\Food Management system\obj\Debug\Food Management system.exe
+E:\foodmanagment\6022016\Food Management system\obj\Debug\Food Management system.pdb
+E:\foodmanagment\6022016\Food Management system\bin\Debug\Food Management system.exe
+E:\foodmanagment\6022016\Food Management system\bin\Debug\Food Management system.pdb
+E:\foodmanagment\6022016\Food Management system\obj\Debug\Food Management system.csprojResolveAssemblyReference.cache
+E:\foodmanagment\6022016\Food Management system\obj\Debug\FoodManagmentsystem.calender.resources
+E:\foodmanagment\6022016\Food Management system\obj\Debug\FoodManagmentsystem.Editinfo.resources
+E:\foodmanagment\6022016\Food Management system\obj\Debug\FoodManagementsystem.fulldatabase.resources
+E:\foodmanagment\6022016\Food Management system\obj\Debug\FoodManagementsystem.productdatabase.resources
+E:\foodmanagment\6022016\Food Management system\obj\Debug\FoodManagementsystem.Properties.Resources.resources
+E:\foodmanagment\6022016\Food Management system\obj\Debug\Food Management system.csproj.GenerateResource.Cache
+F:\foodmanagment\6022016\Food Management system\bin\Debug\Food Management system.exe.config
+F:\foodmanagment\6022016\Food Management system\obj\Debug\Food Management system.exe
+F:\foodmanagment\6022016\Food Management system\obj\Debug\Food Management system.pdb
+C:\Users\Chris Home\Desktop\foodmanagment\6022016\Food Management system\bin\Debug\Food Management system.exe.config
+C:\Users\Chris Home\Desktop\foodmanagment\6022016\Food Management system\obj\Debug\Food Management system.exe
+C:\Users\Chris Home\Desktop\foodmanagment\6022016\Food Management system\obj\Debug\Food Management system.pdb
+C:\Users\Chris Home\Desktop\foodmanagment\6022016\Food Management system\bin\Debug\Food Management system.exe
+C:\Users\Chris Home\Desktop\foodmanagment\6022016\Food Management system\bin\Debug\Food Management system.pdb
+C:\Users\Chris Home\Desktop\foodmanagment\6022016\Food Management system\obj\Debug\Food Management system.csprojResolveAssemblyReference.cache
+C:\Users\Chris Home\Desktop\foodmanagment\6022016\Food Management system\obj\Debug\FoodManagmentsystem.calender.resources
+C:\Users\Chris Home\Desktop\foodmanagment\6022016\Food Management system\obj\Debug\FoodManagmentsystem.Editinfo.resources
+C:\Users\Chris Home\Desktop\foodmanagment\6022016\Food Management system\obj\Debug\FoodManagementsystem.fulldatabase.resources
+C:\Users\Chris Home\Desktop\foodmanagment\6022016\Food Management system\obj\Debug\FoodManagementsystem.productdatabase.resources
+C:\Users\Chris Home\Desktop\foodmanagment\6022016\Food Management system\obj\Debug\FoodManagementsystem.Properties.Resources.resources
+C:\Users\Chris Home\Desktop\foodmanagment\6022016\Food Management system\obj\Debug\Food Management system.csproj.GenerateResource.Cache
+C:\Users\Chris Home\Desktop\foodmanagment\6022016\Food Management system\obj\Debug\FoodManagmentsystem.MainWindow.resources
+E:\foodmanagment\6022016\Food Management system\obj\Debug\FoodManagementsystem.details.resources
+E:\foodmanagment\6022016\Food Management system\obj\Debug\FoodManagmentsystem.MainWindow.resources
+F:\foodmanagment\6022016\Food Management system\bin\Debug\Food Management system.exe
+F:\foodmanagment\6022016\Food Management system\bin\Debug\Food Management system.pdb
+F:\foodmanagment\6022016\Food Management system\obj\Debug\Food Management system.csprojResolveAssemblyReference.cache
+F:\foodmanagment\6022016\Food Management system\obj\Debug\FoodManagmentsystem.calender.resources
+F:\foodmanagment\6022016\Food Management system\obj\Debug\FoodManagementsystem.details.resources
+F:\foodmanagment\6022016\Food Management system\obj\Debug\FoodManagmentsystem.Editinfo.resources
+F:\foodmanagment\6022016\Food Management system\obj\Debug\FoodManagmentsystem.MainWindow.resources
+F:\foodmanagment\6022016\Food Management system\obj\Debug\FoodManagementsystem.fulldatabase.resources
+F:\foodmanagment\6022016\Food Management system\obj\Debug\FoodManagementsystem.productdatabase.resources
+F:\foodmanagment\6022016\Food Management system\obj\Debug\FoodManagementsystem.Properties.Resources.resources
+F:\foodmanagment\6022016\Food Management system\obj\Debug\Food Management system.csproj.GenerateResource.Cache
+E:\foodmanagment\6022016\Food Management system\bin\Debug\Form1.resx
+E:\foodmanagment\6022016\Food Management system\bin\Debug\Form1.cs
+E:\foodmanagment\6022016\Food Management system\bin\Debug\Form1.Designer.cs
+E:\foodmanagment\01032016\Food Management system\bin\Debug\Food Management system.exe.config
+E:\foodmanagment\01032016\Food Management system\obj\Debug\Food Management system.exe
+E:\foodmanagment\01032016\Food Management system\obj\Debug\Food Management system.pdb
+E:\foodmanagment\01032016\Food Management system\bin\Debug\Form1.resx
+E:\foodmanagment\01032016\Food Management system\bin\Debug\Form1.cs
+E:\foodmanagment\01032016\Food Management system\bin\Debug\Form1.Designer.cs
+E:\foodmanagment\01032016\Food Management system\bin\Debug\Food Management system.exe
+E:\foodmanagment\01032016\Food Management system\bin\Debug\Food Management system.pdb
+E:\foodmanagment\01032016\Food Management system\obj\Debug\Food Management system.csprojResolveAssemblyReference.cache
+E:\foodmanagment\01032016\Food Management system\obj\Debug\FoodManagmentsystem.calender.resources
+E:\foodmanagment\01032016\Food Management system\obj\Debug\FoodManagementsystem.details.resources
+E:\foodmanagment\01032016\Food Management system\obj\Debug\FoodManagmentsystem.Editinfo.resources
+E:\foodmanagment\01032016\Food Management system\obj\Debug\FoodManagmentsystem.MainWindow.resources
+E:\foodmanagment\01032016\Food Management system\obj\Debug\FoodManagementsystem.fulldatabase.resources
+E:\foodmanagment\01032016\Food Management system\obj\Debug\FoodManagementsystem.productdatabase.resources
+E:\foodmanagment\01032016\Food Management system\obj\Debug\FoodManagementsystem.Properties.Resources.resources
+E:\foodmanagment\01032016\Food Management system\obj\Debug\Food Management system.csproj.GenerateResource.Cache
+F:\foodmanagment\01032016\Food Management system\bin\Debug\Food Management system.exe.config
+F:\foodmanagment\01032016\Food Management system\obj\Debug\Food Management system.exe
+F:\foodmanagment\01032016\Food Management system\obj\Debug\Food Management system.pdb
+F:\foodmanagment\01032016\Food Management system\bin\Debug\Form1.resx
+F:\foodmanagment\01032016\Food Management system\bin\Debug\Form1.cs
+F:\foodmanagment\01032016\Food Management system\bin\Debug\Form1.Designer.cs
+F:\foodmanagment\01032016\Food Management system\bin\Debug\Food Management system.exe
+F:\foodmanagment\01032016\Food Management system\bin\Debug\Food Management system.pdb
+F:\foodmanagment\01032016\Food Management system\obj\Debug\Food Management system.csprojResolveAssemblyReference.cache
+F:\foodmanagment\01032016\Food Management system\obj\Debug\FoodManagmentsystem.calender.resources
+F:\foodmanagment\01032016\Food Management system\obj\Debug\FoodManagementsystem.details.resources
+F:\foodmanagment\01032016\Food Management system\obj\Debug\FoodManagmentsystem.Editinfo.resources
+F:\foodmanagment\01032016\Food Management system\obj\Debug\FoodManagmentsystem.MainWindow.resources
+F:\foodmanagment\01032016\Food Management system\obj\Debug\FoodManagementsystem.fulldatabase.resources
+F:\foodmanagment\01032016\Food Management system\obj\Debug\FoodManagementsystem.productdatabase.resources
+F:\foodmanagment\01032016\Food Management system\obj\Debug\FoodManagementsystem.Properties.Resources.resources
+F:\foodmanagment\01032016\Food Management system\obj\Debug\Food Management system.csproj.GenerateResource.Cache
+F:\foodmanagment\02032016\Food Management system\bin\Debug\Food Management system.exe.config
+F:\foodmanagment\02032016\Food Management system\obj\Debug\Food Management system.exe
+F:\foodmanagment\02032016\Food Management system\obj\Debug\Food Management system.pdb
+F:\foodmanagment\02032016\Food Management system\bin\Debug\Form1.resx
+F:\foodmanagment\02032016\Food Management system\bin\Debug\Form1.cs
+F:\foodmanagment\02032016\Food Management system\bin\Debug\Form1.Designer.cs
+F:\foodmanagment\02032016\Food Management system\bin\Debug\Food Management system.exe
+F:\foodmanagment\02032016\Food Management system\bin\Debug\Food Management system.pdb
+F:\foodmanagment\02032016\Food Management system\obj\Debug\Food Management system.csprojResolveAssemblyReference.cache
+F:\foodmanagment\02032016\Food Management system\obj\Debug\FoodManagmentsystem.calender.resources
+F:\foodmanagment\02032016\Food Management system\obj\Debug\FoodManagementsystem.details.resources
+F:\foodmanagment\02032016\Food Management system\obj\Debug\FoodManagmentsystem.Editinfo.resources
+F:\foodmanagment\02032016\Food Management system\obj\Debug\FoodManagmentsystem.MainWindow.resources
+F:\foodmanagment\02032016\Food Management system\obj\Debug\FoodManagementsystem.productdatabase.resources
+F:\foodmanagment\02032016\Food Management system\obj\Debug\FoodManagementsystem.Properties.Resources.resources
+F:\foodmanagment\02032016\Food Management system\obj\Debug\Food Management system.csproj.GenerateResource.Cache
+F:\foodmanagment\02032016\Food Management system\obj\Debug\FoodManagementsystem.stockdatabase.resources
+F:\foodmanagment v3\02032016\Food Management system\bin\Debug\Food Management system.exe.config
+F:\foodmanagment v3\02032016\Food Management system\obj\Debug\Food Management system.exe
+F:\foodmanagment v3\02032016\Food Management system\obj\Debug\Food Management system.pdb
+F:\foodmanagment v3\02032016\Food Management system\bin\Debug\Form1.resx
+F:\foodmanagment v3\02032016\Food Management system\bin\Debug\Form1.cs
+F:\foodmanagment v3\02032016\Food Management system\bin\Debug\Form1.Designer.cs
+F:\foodmanagment v3\02032016\Food Management system\bin\Debug\Food Management system.exe
+F:\foodmanagment v3\02032016\Food Management system\bin\Debug\Food Management system.pdb
+F:\foodmanagment v3\02032016\Food Management system\obj\Debug\Food Management system.csprojResolveAssemblyReference.cache
+F:\foodmanagment v3\02032016\Food Management system\obj\Debug\FoodManagmentsystem.calender.resources
+F:\foodmanagment v3\02032016\Food Management system\obj\Debug\FoodManagementsystem.details.resources
+F:\foodmanagment v3\02032016\Food Management system\obj\Debug\FoodManagmentsystem.Editinfo.resources
+F:\foodmanagment v3\02032016\Food Management system\obj\Debug\FoodManagmentsystem.MainWindow.resources
+F:\foodmanagment v3\02032016\Food Management system\obj\Debug\FoodManagementsystem.stockdatabase.resources
+F:\foodmanagment v3\02032016\Food Management system\obj\Debug\FoodManagementsystem.productdatabase.resources
+F:\foodmanagment v3\02032016\Food Management system\obj\Debug\FoodManagementsystem.Properties.Resources.resources
+F:\foodmanagment v3\02032016\Food Management system\obj\Debug\Food Management system.csproj.GenerateResource.Cache
+C:\Users\Graham\Desktop\CHRIS COMP4\foodmanagment v4\02032016\Food Management system\bin\Debug\Food Management system.exe.config
+C:\Users\Graham\Desktop\CHRIS COMP4\foodmanagment v4\02032016\Food Management system\obj\Debug\Food Management system.exe
+C:\Users\Graham\Desktop\CHRIS COMP4\foodmanagment v4\02032016\Food Management system\obj\Debug\Food Management system.pdb
+C:\Users\Chris\Desktop\COMP4 project\foodmanagment v4\02032016\Food Management system\bin\Debug\Food Management system.exe.config
+C:\Users\Chris\Desktop\COMP4 project\foodmanagment v4\02032016\Food Management system\obj\Debug\Food Management system.exe
+C:\Users\Chris\Desktop\COMP4 project\foodmanagment v4\02032016\Food Management system\obj\Debug\Food Management system.pdb
+C:\Users\Chris\Desktop\COMP4 project\foodmanagment v4\02032016\Food Management system\bin\Debug\Form1.resx
+C:\Users\Chris\Desktop\COMP4 project\foodmanagment v4\02032016\Food Management system\bin\Debug\Form1.cs
+C:\Users\Chris\Desktop\COMP4 project\foodmanagment v4\02032016\Food Management system\bin\Debug\Form1.Designer.cs
+C:\Users\Chris\Desktop\COMP4 project\foodmanagment v4\02032016\Food Management system\bin\Debug\Food Management system.exe
+C:\Users\Chris\Desktop\COMP4 project\foodmanagment v4\02032016\Food Management system\bin\Debug\Food Management system.pdb
+C:\Users\Chris\Desktop\COMP4 project\foodmanagment v4\02032016\Food Management system\obj\Debug\Food Management system.csprojResolveAssemblyReference.cache
+C:\Users\Chris\Desktop\COMP4 project\foodmanagment v4\02032016\Food Management system\obj\Debug\FoodManagmentsystem.calender.resources
+C:\Users\Chris\Desktop\COMP4 project\foodmanagment v4\02032016\Food Management system\obj\Debug\FoodManagementsystem.details.resources
+C:\Users\Chris\Desktop\COMP4 project\foodmanagment v4\02032016\Food Management system\obj\Debug\FoodManagmentsystem.Editinfo.resources
+C:\Users\Chris\Desktop\COMP4 project\foodmanagment v4\02032016\Food Management system\obj\Debug\FoodManagmentsystem.MainWindow.resources
+C:\Users\Chris\Desktop\COMP4 project\foodmanagment v4\02032016\Food Management system\obj\Debug\FoodManagementsystem.stockdatabase.resources
+C:\Users\Chris\Desktop\COMP4 project\foodmanagment v4\02032016\Food Management system\obj\Debug\FoodManagementsystem.productdatabase.resources
+C:\Users\Chris\Desktop\COMP4 project\foodmanagment v4\02032016\Food Management system\obj\Debug\FoodManagementsystem.Properties.Resources.resources
+C:\Users\Chris\Desktop\COMP4 project\foodmanagment v4\02032016\Food Management system\obj\Debug\Food Management system.csproj.GenerateResource.Cache
