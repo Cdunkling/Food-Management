@@ -1,4 +1,4 @@
-Food Management project
+##Food Management project
 
 This repository contains the documentation and final release of my A-level computer science project.
 
