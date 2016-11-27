@@ -44,8 +44,13 @@ namespace FoodManagmentsystem
                     comboBox1.Text = dr["Shop"].ToString();
                     comboBox2.Text = dr["Location"].ToString();
                     string price = dr["Price"].ToString();
-                    string price2 = price.Remove(0, 1);
-                    decimal priceval = decimal.Parse(price2);
+                    decimal priceval = 0.00M;
+                    if (price != "")
+                    {
+                        string price2 = price.Remove(0, 1);
+                        priceval = decimal.Parse(price2);
+                    }
+
                     priceeditbox.Value = priceval;
                 }
             }
@@ -102,7 +107,14 @@ namespace FoodManagmentsystem
                             MainWindow.newproduct.setboughtdate(Convert.ToDateTime(linkLabel1.Text));
                             MainWindow.newproduct.setexpirydate(Convert.ToDateTime(linkLabel2.Text));
                             MainWindow.newproduct.setindex(MainWindow.rows);
-                            MainWindow.newproduct.setminvalue(Convert.ToInt32(minimumstockedit.Value));
+                            if (norunout.Checked == false)
+                            {
+                                MainWindow.newproduct.setminvalue(Convert.ToInt32(minimumstockedit.Value));
+                            }
+                            else
+                            {
+                                MainWindow.newproduct.setminvalue(-1);
+                            }
                             MainWindow.newproduct.setprice(Convert.ToDouble(priceeditbox.Text));
                             MainWindow.newproduct.setlocation(comboBox2.Text);
                             MainWindow.newproduct.setshop(comboBox1.Text);
@@ -126,7 +138,14 @@ namespace FoodManagmentsystem
                         MainWindow.newproduct.setboughtdate(Convert.ToDateTime(linkLabel1.Text));
                         MainWindow.newproduct.setexpirydate(Convert.ToDateTime(linkLabel2.Text));
                         MainWindow.newproduct.setindex(MainWindow.rows);
-                        MainWindow.newproduct.setminvalue(Convert.ToInt32(minimumstockedit.Value));
+                        if (norunout.Checked == false)
+                        {
+                            MainWindow.newproduct.setminvalue(Convert.ToInt32(minimumstockedit.Value));
+                        }
+                        else
+                        {
+                            MainWindow.newproduct.setminvalue(-1);
+                        }
                         MainWindow.newproduct.setprice(Convert.ToDouble(priceeditbox.Value));
                         MainWindow.newproduct.setlocation(comboBox2.Text);
                         MainWindow.newproduct.setshop(comboBox1.Text);
@@ -162,7 +181,14 @@ namespace FoodManagmentsystem
                     MainWindow.newproduct.setboughtdate(Convert.ToDateTime(linkLabel1.Text));
                     MainWindow.newproduct.setexpirydate(DateTime.Now.AddYears(1000));
                     MainWindow.newproduct.setindex(MainWindow.rows);
-                    MainWindow.newproduct.setminvalue(Convert.ToInt32(minimumstockedit.Value));
+                    if (norunout.Checked == false)
+                    {
+                        MainWindow.newproduct.setminvalue(Convert.ToInt32(minimumstockedit.Value));
+                    }
+                    else
+                    {
+                        MainWindow.newproduct.setminvalue(-1);
+                    }
                     MainWindow.newproduct.setprice(Convert.ToDouble(priceeditbox.Value));
                     MainWindow.newproduct.setlocation(comboBox2.Text);
                     MainWindow.newproduct.setshop(comboBox1.Text);
@@ -208,6 +234,18 @@ namespace FoodManagmentsystem
             else
             {
                 linkLabel2.Enabled = true;
+            }
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (norunout.Checked == true)
+            {
+                minimumstockedit.Enabled = false;
+            }
+            else
+            {
+                minimumstockedit.Enabled = true;
             }
         }
     }

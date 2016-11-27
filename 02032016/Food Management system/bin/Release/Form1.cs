@@ -3,17 +3,13 @@
 //================================================================================
 
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Net;
 using System.Text;
 using System.IO;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using Microsoft.VisualBasic.FileIO;
 using FoodManagementsystem;
 using System.Collections.Specialized;
 
@@ -399,13 +395,20 @@ namespace FoodManagmentsystem
 
 
                 //data from csv file inserted into table                
-                var lines = File.ReadLines(filename);
-                string[] values = new string[5];
-                foreach (var line in lines)
+                try
                 {
-                    values = line.Split(',').ToArray();
-                    table.Rows.Add(values);
-                    rows++;
+                    var lines = File.ReadLines(filename);
+                    string[] values = new string[5];
+                    foreach (var line in lines)
+                    {
+                        values = line.Split(',').ToArray();
+                        table.Rows.Add(values);
+                        rows++;
+                    }
+                }
+                catch (FileNotFoundException ex)
+                {
+                    File.Create("main.csv");
                 }
 
                 dataGridView1.DataSource = table;
@@ -413,12 +416,10 @@ namespace FoodManagmentsystem
 
 
                 productdatabase frm = new productdatabase(); //creates the product database form to house the table
-                frm.Show();
 
                 stockdatabase frm2 = new stockdatabase();//creates the stock database form to house the table
                 dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect; //user can only select rows not cells
                 dataGridView1.AllowUserToDeleteRows = false;//user is unable to delete rows
-                frm2.Show();
 
                 //adding products to favourites if the favourites flag is true
                 foreach (DataRow dr in table.Rows)
@@ -448,123 +449,157 @@ namespace FoodManagmentsystem
             viewexpiringtable.Clear();
             viewrunningouttable.Clear();
             expiredtable.Clear();
-            foreach (DataRow dr in productdatabase.producttable.Rows)
-            {
-                Int32 Quantity;
-                Int32 minvalue;
-                string rowvalue = dr["Quantity"].ToString();
-                Quantity = Int32.Parse(rowvalue);
-                string rowvaluemin = dr["minquantity"].ToString();
-                minvalue = Int32.Parse(rowvaluemin);
-                // check if the remaining quantity is less than the user defined minimum value
-                if (Quantity == 0)
-                {
-                    dr["Status"] = "Runout";
-                }
-                else if (Quantity < minvalue)
-                {
-                    dr["Status"] = "Running out";
-                }
-                else if (Quantity > minvalue)
-                {
-                    dr["Status"] = "";
-                }
-                string rowValue = dr["status"].ToString();
-                // if the status of a row is listed as runout then it is added to the runningout/consumed table
-                if (rowValue == "Runout")
-                {
-                    string[] row = new string[2];
-                    row[0] = dr["Name"].ToString();
-                    row[1] = dr["Quantity"].ToString();
-                    viewrunningouttable.Rows.Add(row);
-                    consumedtable.Rows.Add(row);
-                }
-                if (rowValue == "Running out")
-                {
-                    string[] row = new string[2];
-                    row[0] = dr["Name"].ToString();
-                    row[1] = dr["Quantity"].ToString();
-                    viewrunningouttable.Rows.Add(row);
-                }
 
-            }
-            int i = 0;
-            foreach (DataRow dr in stockdatabase.stocktable.Rows)
+            if (productdatabase.producttable.Rows.Count != 0)
             {
-                dr["position"] = i;
-                string rowValue2 = dr["expirydate"].ToString();
-                DateTime ExpiryValue = DateTime.Parse(rowValue2);
-                string rowValue3 = dr["BoughtDate"].ToString();
-                DateTime BoughtValue = DateTime.Parse(rowValue3);
-                var Boughtdate = BoughtValue.Date.AddDays(7);
-                var dateAndTime = DateTime.Now;
-                var date = dateAndTime.Date;
-                var expirydate = ExpiryValue.Date;
-                i++;
-                if (date > expirydate)//checks that the current date is not past the expiry date of the product
+                foreach (DataRow dr in productdatabase.producttable.Rows)
                 {
-                    dr["Status"] = "Expired";
-                }
-                else if (date > expirydate.AddDays(-7))//checks if the product expires in 7 days and marks as expiring 
-                {
-                    dr["Status"] = "Expiring";
-                }
-                else
-                {
-                    dr["Status"] = "";
-                }
-                string rowValue = dr["status"].ToString();
-                string name = "";
-                foreach (DataRow dx in table.Rows)
-                {
-                    if (dr["barcode"].ToString() == dx["barcode"].ToString())
+                    Int32 Quantity;
+                    Int32 minvalue;
+                    string rowvalue = dr["Quantity"].ToString();
+                    Quantity = Int32.Parse(rowvalue);
+                    string rowvaluemin = dr["minquantity"].ToString();
+                    minvalue = Int32.Parse(rowvaluemin);
+                    // check if the remaining quantity is less than the user defined minimum value
+                    if (Quantity == 0)
                     {
-                        name = dx["Name"].ToString();
-                        break;
+                        if (minvalue > -1)
+                        {
+                            dr["Status"] = "Runout";
+                        }
+                    }
+                    else if (Quantity < minvalue)
+                    {
+                        dr["Status"] = "Running out";
+                    }
+                    else if (Quantity > minvalue)
+                    {
+                        dr["Status"] = "";
+                    }
+                    string rowValue = dr["status"].ToString();
+                    // if the status of a row is listed as runout then it is added to the runningout/consumed table
+                    if (rowValue == "Runout")
+                    {
+                        string[] row = new string[2];
+                        row[0] = dr["Name"].ToString();
+                        row[1] = dr["Quantity"].ToString();
+                        viewrunningouttable.Rows.Add(row);
+                        consumedtable.Rows.Add(row);
+                    }
+                    if (rowValue == "Running out")
+                    {
+                        string[] row = new string[2];
+                        row[0] = dr["Name"].ToString();
+                        row[1] = dr["Quantity"].ToString();
+                        viewrunningouttable.Rows.Add(row);
+                    }
+
+
+                }
+                int i = 0;
+                foreach (DataRow dr in stockdatabase.stocktable.Rows)
+                {
+                    dr["position"] = i;
+                    string rowValue2 = dr["expirydate"].ToString();
+                    DateTime ExpiryValue = DateTime.Parse(rowValue2);
+                    string rowValue3 = dr["BoughtDate"].ToString();
+                    DateTime BoughtValue = DateTime.Parse(rowValue3);
+                    var Boughtdate = BoughtValue.Date.AddDays(7);
+                    var dateAndTime = DateTime.Now;
+                    var date = dateAndTime.Date;
+                    var expirydate = ExpiryValue.Date;
+                    i++;
+                    if (date > expirydate)//checks that the current date is not past the expiry date of the product
+                    {
+                        dr["Status"] = "Expired";
+                    }
+                    else if (date > expirydate.AddDays(-7))//checks if the product expires in 7 days and marks as expiring 
+                    {
+                        dr["Status"] = "Expiring";
+                    }
+                    else
+                    {
+                        dr["Status"] = "";
+                    }
+                    string rowValue = dr["status"].ToString();
+                    string name = "";
+                    foreach (DataRow dx in table.Rows)
+                    {
+                        if (dr["barcode"].ToString() == dx["barcode"].ToString())
+                        {
+                            name = dx["Name"].ToString();
+                            break;
+                        }
+                    }
+                    //if the status is marked as expired adds to the expired and expiringtable 
+                    if (rowValue == "Expired")
+                    {
+                        string one = name;
+                        string two = dr["Boughtdate"].ToString();
+                        string three = dr["expirydate"].ToString();
+                        string four = dr["shop"].ToString();
+                        string five = dr["Price"].ToString();
+                        string six = dr["Location"].ToString();
+                        string seven = dr["Status"].ToString();
+                        expiredtable.Rows.Add(one, two, six);
+                        viewexpiringtable.Rows.Add(one, two, three, four, five, six, seven);
+                    }
+                    //if the status is marked as expiring adds to the expiringtable
+                    if (rowValue == "Expiring")
+                    {
+                        string one = name;
+                        string two = dr["Boughtdate"].ToString();
+                        string three = dr["expirydate"].ToString();
+                        string four = dr["shop"].ToString();
+                        string five = dr["Price"].ToString();
+                        string six = dr["Location"].ToString();
+                        string seven = dr["Status"].ToString();
+                        viewexpiringtable.Rows.Add(one, two, three, four, five, six, seven);
                     }
                 }
-                //if the status is marked as expired adds to the expired and expiringtable 
-                if (rowValue == "Expired")
+                foreach (DataRow dr in table.Rows)
                 {
-                    string one = name;
-                    string two = dr["Boughtdate"].ToString();
-                    string three = dr["expirydate"].ToString();
-                    string four = dr["shop"].ToString();
-                    string five = dr["Price"].ToString();
-                    string six = dr["Location"].ToString();
-                    string seven = dr["Status"].ToString();
-                    expiredtable.Rows.Add(one, two, six);
-                    viewexpiringtable.Rows.Add(one, two, three, four, five, six, seven);
+                    favouritestable.Clear();
+                    if (dr["favourite"].ToString() == "True")
+                    {
+                        string[] row = new string[5];
+                        row[0] = dr[0].ToString();
+                        row[1] = dr[1].ToString();
+                        row[2] = dr[2].ToString();
+                        row[3] = dr[3].ToString();
+                        row[4] = dr[4].ToString();
+                        favouritestable.Rows.Add(row);
+                    }
                 }
-                //if the status is marked as expiring adds to the expiringtable
-                if (rowValue == "Expiring")
+                foreach (DataRow dr in productdatabase.producttable.Rows)
                 {
-                    string one = name;
-                    string two = dr["Boughtdate"].ToString();
-                    string three = dr["expirydate"].ToString();
-                    string four = dr["shop"].ToString();
-                    string five = dr["Price"].ToString();
-                    string six = dr["Location"].ToString();
-                    string seven = dr["Status"].ToString();
-                    viewexpiringtable.Rows.Add(one, two, three, four, five, six, seven);
-                }
-            }
-            foreach (DataRow dr in table.Rows)
-            {
-                favouritestable.Clear();
-                if (dr["favourite"].ToString() == "True")
-                {
-                    string[] row = new string[5];
-                    row[0] = dr[0].ToString();
-                    row[1] = dr[1].ToString();
-                    row[2] = dr[2].ToString();
-                    row[3] = dr[3].ToString();
-                    row[4] = dr[4].ToString();
-                    favouritestable.Rows.Add(row);
+                    Int32 Quantity;
+                    Int32 minvalue;
+                    string rowvalue = dr["Quantity"].ToString();
+                    Quantity = Int32.Parse(rowvalue);
+                    string rowvaluemin = dr["minquantity"].ToString();
+                    minvalue = Int32.Parse(rowvaluemin);
+                    if (Quantity == 0)
+                    {
+                        if (minvalue == -1)
+                        {
+                                foreach (DataRow dpr in table.Rows)
+                                {
+                                    if (dr["barcode"] == dpr["barcode"])
+                                    {
+                                        dpr.Delete();
+
+                                    }
+                                if (table.Rows.Count == 0) { break; }
+                            }
+                                dr.Delete();
+                                if (productdatabase.producttable.Rows.Count==0){ break; }
+
+                        }
+                    }
                 }
             }
         }
-
         string input;
 
         public void oktoscan_Click(object sender, EventArgs e)
@@ -624,6 +659,8 @@ namespace FoodManagmentsystem
                             dataStream.Close();
                             response.Close();
                             barcodeinput.Clear();
+                            Editinfo frm = new Editinfo();
+                            frm.ShowDialog();
 
                         }
 
@@ -635,6 +672,8 @@ namespace FoodManagmentsystem
                             newproduct.setstatus("");
                             newproduct.notinoutpan = false;
                             barcodeinput.Clear();
+                            Editinfo frm = new Editinfo();
+                            frm.ShowDialog();
                         }
 
 
@@ -646,19 +685,11 @@ namespace FoodManagmentsystem
                             var resp = (HttpWebResponse)ex.Response;
                             if (resp.StatusCode == HttpStatusCode.BadRequest) // HTTP 404
                             {
-                                str3 = "";
-                                newproduct.setbarcode(input);
-                                newproduct.setname(str3);
-                                newproduct.setboughtdate(DateTime.Now);
-                                newproduct.setstatus("");
+                                MessageBox.Show("Invalid Barcode!", "Warning");
                                 barcodeinput.Clear();
-                                newproduct.notinoutpan = true;
                             }
                         }
                     }
-
-                    Editinfo frm = new Editinfo();
-                    frm.ShowDialog();
                 }
             }
         }
@@ -775,6 +806,7 @@ namespace FoodManagmentsystem
 
                 }
             }
+            
             statuscheck();
         }
 

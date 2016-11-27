@@ -65,7 +65,7 @@ namespace FoodManagementsystem
             Status.ColumnName = "Status";
             producttable.Columns.Add(Status);
             dataGridView1.DataSource = producttable;
-
+            try { 
             var lines = File.ReadLines(filename);
             string[] values = new string[4];
             foreach (var line in lines)
@@ -73,6 +73,11 @@ namespace FoodManagementsystem
                 values = line.Split(',').ToArray();
                 producttable.Rows.Add(values);
                 rows++;
+            }
+            }
+            catch (FileNotFoundException ex)
+            {
+                File.Create("product.csv");
             }
         }
     }

@@ -92,7 +92,8 @@ namespace FoodManagementsystem
             position.ColumnName = "position";
             stocktable.Columns.Add(position);
             dataGridView1.DataSource = stocktable;
-
+            try
+            {
             var lines = File.ReadLines(filename);
             string[] values = new string[6];
             foreach (var line in lines)
@@ -100,6 +101,11 @@ namespace FoodManagementsystem
                 values = line.Split(',').ToArray();
                 stocktable.Rows.Add(values);
                 rows++;
+            }
+            }
+            catch (FileNotFoundException ex)
+            {
+                File.Create("stock.csv");
             }
         }
     }
